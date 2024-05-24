@@ -33,7 +33,7 @@ public class T01ArgsTest {
 	
 	// 가변형 인수와 일반적인 인수를 같이 사용할 경우에는 가변형 인수를 제일 뒤쪽에 배치한다.
 	private String sumArgs2(String name, int...data) {
-		int sum =0;
+		int sum = 0;
 		
 		for (int i=0; i<data.length; i++) {
 			sum += data[i];
