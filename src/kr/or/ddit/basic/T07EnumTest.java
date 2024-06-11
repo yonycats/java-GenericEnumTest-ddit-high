@@ -1,6 +1,6 @@
 package kr.or.ddit.basic;
 
-// enum이 없을 때 사용하던 	방법
+// enum이 없을 때 사용하던 방법
 class Flower {
 	static final int ROSE = 1; // 장미
 	static final int TULIP = 2; // 튤립
